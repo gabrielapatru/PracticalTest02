@@ -23,13 +23,14 @@
         android:text="Connect"
         android:layout_marginTop="20dp"/>
     <ImageView
+        android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:padding="10dp"
         android:layout_below="@+id/pokemon_name"
         android:layout_marginTop="50dp"
-        android:src="@drawable/ic_launcher_background"/>
+        android:src="@drawable/ic_launcher_background" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
